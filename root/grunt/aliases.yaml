@@ -1,0 +1,6 @@
+default:
+  - 'shell:checkout'
+dev:
+  - 'default'
+  - 'connect'
+  - 'watch'
